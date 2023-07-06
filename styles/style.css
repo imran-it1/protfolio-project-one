@@ -49,6 +49,9 @@ body {
     font-weight: 600;
 }
 
+.main_navigation_left:hover {
+    font-size: 1.6rem;
+}
 
 /* Main Section */
 
@@ -96,7 +99,7 @@ body {
 
 
 .btn {
-    font-size: 1rem;
+    font-size: .9rem;
     padding: 12px;
     border-radius: 8px;
     background-color: rgb(144, 69, 214);
@@ -104,11 +107,13 @@ body {
     /* outline: none; */
     border: 1px solid white;
     cursor: pointer;
+    letter-spacing: .05rem;
 }
 
 .btn:hover {
     background-color: rgb(115, 35, 190);
     /* border: 2px solid rgb(14, 14, 63); */
+    border: 2px solid rgb(136, 134, 134);
 }
 
 .margin_left {
@@ -122,7 +127,8 @@ body {
 .second_section {
     /* background-color: green; */
     max-width: 80vw;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 670px;
     margin: 0px auto;
 }
 
@@ -170,4 +176,37 @@ body {
     font-size: 15px;
     font-weight: 400;
     color: rgb(158, 158, 158);
+}
+
+footer {
+    background-color: #03032b;
+}
+
+.footer_flex {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_flex>div {
+    font-size: 20px;
+}
+
+.footer_flex li {
+    list-style: none;
+}
+
+.footer_flex a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.footer_copyright {
+    text-align: center;
+    padding: 15px;
+    color: rgb(141, 141, 141);
+    font-size: 13px;
 }
