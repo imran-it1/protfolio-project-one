@@ -162,6 +162,9 @@ body {
     left: -20px;
 }
 
+.img_top:hover {
+    width: 45px;
+}
 
 .vertical_title {
     position: relative;
@@ -190,8 +193,13 @@ footer {
     align-items: center;
 }
 
-.footer_flex>div {
+.base_link {
     font-size: 20px;
+}
+
+.base_link:hover {
+    cursor: pointer;
+    font-size: 21px;
 }
 
 .footer_flex li {
@@ -204,9 +212,15 @@ footer {
     font-size: 13px;
 }
 
+.footer_flex a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+    font-size: 14px;
+}
+
 .footer_copyright {
     text-align: center;
     padding: 15px;
-    color: rgb(141, 141, 141);
+    color: rgb(167, 165, 165);
     font-size: 13px;
 }
