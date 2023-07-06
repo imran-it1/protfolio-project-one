@@ -9,6 +9,7 @@ body {
     color: white;
 }
 
+/* Primary Navigation */
 
 .main_navigation {
     display: flex;
@@ -47,6 +48,9 @@ body {
     font-weight: 600;
 }
 
+
+/* Main Section */
+
 .main_section {
     display: flex;
     justify-content: space-around;
@@ -62,17 +66,104 @@ body {
     font-size: 3rem;
 }
 
+
+#element {
+    font-size: 1.8rem;
+    color: blueviolet;
+}
+
 .left_section h1 .purple {
     color: blueviolet;
     font-size: 3rem;
 }
 
 .left_section .sub_heading {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 .right_section img {
     width: 100%;
     height: 100%;
     /* margin: 40px -50px; */
+}
+
+/* Main Button */
+
+.main_btn {
+    margin: 15px 0 0 0;
+}
+
+
+.btn {
+    font-size: 1rem;
+    padding: 15px 25px;
+    border-radius: 22px;
+    background-color: rgb(144, 69, 214);
+    color: white;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.btn:hover {
+    background-color: rgb(115, 35, 190);
+    /* border: 2px solid rgb(14, 14, 63); */
+}
+
+.margin_left {
+    margin-left: 20px;
+}
+
+
+
+/* Second Section */
+
+.second_section {
+    /* background-color: green; */
+    max-width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.second_section h1 {
+    font-size: 1.5rem;
+}
+
+.second_section .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 60px 0;
+    display: flex;
+}
+
+
+/* Verticaal Section */
+
+.second_section .vertical {
+    height: 90px;
+    background-color: white;
+    width: 1px;
+    margin: 0px 125px;
+}
+
+.img_top {
+    width: 50px;
+    position: relative;
+    top: -57px;
+    left: -25px;
+}
+
+
+.vertical_title {
+    position: relative;
+    top: 36px;
+    width: 175px;
+}
+
+.vertical_desc {
+    position: relative;
+    top: 54px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: lighter;
 }
