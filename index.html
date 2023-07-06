@@ -19,11 +19,11 @@
         <div class="main_navigation_left">Imran's Portfolio</div>
         <div class="main_navigation_right">
           <ul>
-            <li><a href=""></a>Home</li>
-            <li><a href=""></a>About</li>
-            <li><a href=""></a>Services</li>
-            <li><a href=""></a>Projects</li>
-            <li><a href=""></a>Contact Me</li></a>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact Me</a></li>
           </ul>
         </div>
       </nav>
@@ -34,11 +34,20 @@
         <div class="left_section">
           <h1>Hi, My name is <span class="purple">Imran</span></h1>
           <div class="sub_heading">Full Stack Developer</div>
+          <span id="element"></span>
         </div>
         <div class="right_section">
           <img src="images/bg2.png" alt="" />
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Designer.", "&amp;Web developer."],
+        typeSpeed: 50,
+      });
+    </script>
   </body>
 </html>
